@@ -9,6 +9,14 @@
 
 //lapsedUserAccounts.map( u => sendBillTo(u.address) );
 
-const divide = () => 2000/100
-const square = y => y * y;
-const add = (a, b) =>(a+b);
+const divide = function(){
+    return 2000/100;
+}
+
+const square = (multiply2) => {
+    return multiply2*multiply2;
+}
+
+const add = (num1, num2) => {
+    return num1+num2;
+}
